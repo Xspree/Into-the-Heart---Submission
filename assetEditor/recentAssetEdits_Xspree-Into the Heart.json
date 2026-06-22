@@ -1,0 +1,130 @@
+{
+  "Assets": [
+    {
+      "Path": "Server\\Audio\\SoundEvents\\SFX\\Weapons\\Bomb\\SFX_Bomb_Fuse_Short.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-19T05:24:34.588365600Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\Item\\Block\\Fluids\\Water_Glow_Source.json",
+      "State": "Deleted",
+      "LastModificationTimestamp": "2026-06-22T03:27:56.550072200Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\Item\\Items\\Plant\\Moss\\Plant_Moss_Cave_Green_Dark_Glow.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-18T22:24:11.677382900Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\Item\\Items\\Weapon_Shortbow_Crude_ItH.json",
+      "State": "Deleted",
+      "LastModificationTimestamp": "2026-06-19T02:21:31.436591700Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\NPC\\Spawn\\Markers\\Skeleton_Archer_Manual.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-20T19:24:17.886879200Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\NPC\\Spawn\\Markers\\Golem_Earth_Manual.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-20T19:27:38.946798800Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Common\\Icons\\ItemsGenerated\\Rock_Calcite_Brick_No_Hitbox.png",
+      "State": "New",
+      "LastModificationTimestamp": "2026-06-19T17:32:48.896103900Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Common\\Icons\\ItemsGenerated\\Fluid_Water_Glow.png",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-22T02:40:51.215379Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\NPC\\Spawn\\Markers\\Skeleton_Mage_Manual.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-20T19:21:37.968604900Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\Item\\Items\\Rock_Marble_Brick_Pillar_Base_Glowing.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-18T23:46:31.674388500Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Common\\Icons\\ItemsGenerated\\Air_Block.png",
+      "State": "New",
+      "LastModificationTimestamp": "2026-06-19T22:12:58.477064200Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\NPC\\Spawn\\Markers\\Golem_Fire_Manual.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-20T19:28:06.043291200Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\Item\\Items\\Deco\\Deco_Fire_Blue.json",
+      "State": "Deleted",
+      "LastModificationTimestamp": "2026-06-18T23:32:54.669323800Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\Item\\Items\\Air_Block.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-19T22:14:18.811291400Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\Item\\Items\\Rock_Calcite_Brick_No_Hitbox.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-19T17:36:22.546823Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\Item\\Items\\Rock_Calcite_Cobble_No_Hitbox.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-19T17:40:31.562945700Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\Item\\Items\\Plant\\Moss\\Plant_Moss_Cave_Blue_Dark_Glow.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-18T22:31:42.000017100Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\Item\\Items\\Fluid\\Fluid_Water_Glow.json",
+      "State": "Deleted",
+      "LastModificationTimestamp": "2026-06-22T03:27:53.404906Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    }
+  ]
+}

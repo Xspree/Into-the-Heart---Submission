@@ -1,0 +1,74 @@
+{
+  "Assets": [
+    {
+      "Path": "Common\\Icons\\ItemsGenerated\\Weapon_Hammer_Zerk_Guidance.png",
+      "State": "New",
+      "LastModificationTimestamp": "2026-06-19T20:02:21.809460600Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\Item\\Items\\Weapon\\Bomb\\Weapon_Bomb_Large_Fire_Placeable.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-19T21:55:08.901768700Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\Item\\Items\\Weapon_Hammer_Zerk_Guidance.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-19T21:00:05.387957200Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Common\\Icons\\ItemsGenerated\\Weapon_Sword_Crude_Placeable.png",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-19T19:44:20.727078300Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\NPC\\Spawn\\Markers\\Undead\\Skeleton\\Skeleton_Archer_Manual.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-20T19:22:14.443358Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\Item\\Items\\Weapon_Sword_Agni_Savior_Placeable.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-19T19:48:20.274948100Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Common\\Icons\\ItemsGenerated\\Weapon_Staff_Gaia_Blessing_Placeable.png",
+      "State": "New",
+      "LastModificationTimestamp": "2026-06-19T19:50:03.112817500Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\Item\\Items\\Weapon_Sword_Crude_Placeable.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-19T19:44:20.759554100Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\Item\\Items\\Weapon_Sword_Crude.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-17T04:19:04.876250500Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    },
+    {
+      "Path": "Server\\Item\\Items\\Weapon_Staff_Gaia_Blessing_Placeable.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-06-19T19:50:03.143470Z",
+      "LastModificationPlayerUuid": "587c7202-b4d7-4a84-b637-b3806114260d",
+      "LastModificationUsername": "Xspree"
+    }
+  ]
+}
