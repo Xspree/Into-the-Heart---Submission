@@ -45,7 +45,7 @@
     "SunshaftScaleFactor": 4.0
   },
   "RequiredPlugins": {},
-  "GameMode": "Creative",
+  "GameMode": "Adventure",
   "IsSpawningNPC": false,
   "IsSpawnMarkersEnabled": true,
   "IsAllNPCFrozen": false,
