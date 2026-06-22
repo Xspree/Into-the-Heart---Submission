@@ -1,0 +1,12 @@
+{
+  "ManualTrigger": true,
+  "NPCs": [
+    {
+      "Name": "Skeleton_Archmage",
+      "Weight": 1,
+      "SpawnAfterGameTime": "PT1H"
+    }
+  ],
+  "Model": "NPC_Spawn_Marker",
+  "DeactivationDistance": 150
+}

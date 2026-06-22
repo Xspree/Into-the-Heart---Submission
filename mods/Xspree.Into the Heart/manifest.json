@@ -1,0 +1,21 @@
+{
+  "Group": "Xspree",
+  "Name": "Into the Heart",
+  "Version": "1.0.0",
+  "Description": "Into the Heart prefabs",
+  "Authors": [
+    {
+      "Name": "Xspree",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "ServerVersion": ">=0.5.6 <0.6.0",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

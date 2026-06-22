@@ -1,0 +1,16 @@
+{
+  "Group": "Xspree",
+  "Name": "Trigger Volume Helper X",
+  "Version": "0.1.0",
+  "Authors": [
+    {
+      "Name": "Xspree"
+    }
+  ],
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

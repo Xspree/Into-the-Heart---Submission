@@ -1,0 +1,248 @@
+{
+  "version": 8,
+  "blockIdVersion": 11,
+  "anchorX": 0,
+  "anchorY": 0,
+  "anchorZ": 0,
+  "blocks": [
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "name": "Deco_Rope"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 0,
+      "name": "Deco_Rope"
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 0,
+      "name": "Deco_Rope"
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "z": 0,
+      "name": "Deco_Rope"
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "z": 0,
+      "name": "Deco_Rope"
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "z": 0,
+      "name": "Deco_Rope"
+    },
+    {
+      "x": 0,
+      "y": 6,
+      "z": 0,
+      "name": "Deco_Rope"
+    },
+    {
+      "x": 0,
+      "y": 7,
+      "z": 0,
+      "name": "Deco_Rope"
+    },
+    {
+      "x": 0,
+      "y": 8,
+      "z": 0,
+      "name": "Deco_Rope"
+    },
+    {
+      "x": 0,
+      "y": 9,
+      "z": 0,
+      "name": "Deco_Rope"
+    },
+    {
+      "x": 0,
+      "y": 10,
+      "z": 0,
+      "name": "Deco_Rope"
+    },
+    {
+      "x": 0,
+      "y": 11,
+      "z": 0,
+      "name": "Deco_Rope"
+    },
+    {
+      "x": 0,
+      "y": 12,
+      "z": 0,
+      "name": "Deco_Rope"
+    }
+  ],
+  "fluids": [
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 6,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 7,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 8,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 9,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 10,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 11,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 12,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    }
+  ],
+  "entities": [
+    {
+      "Components": {
+        "Transform": {
+          "Position": {
+            "X": 0.5,
+            "Y": 6.5,
+            "Z": 0.5
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        },
+        "TriggerVolume": {
+          "Shape": {
+            "Type": "Box",
+            "Min": {
+              "X": -0.5,
+              "Y": -6.5,
+              "Z": -0.5
+            },
+            "Max": {
+              "X": 0.5,
+              "Y": 6.5,
+              "Z": 0.5
+            }
+          },
+          "Effects": [
+            {
+              "Type": "PlaceBlock",
+              "Event": "TAG_ADDED",
+              "Interval": 0.0,
+              "Delay": 0.0,
+              "BlockType": "Deco_Rope",
+              "Position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Origin": "VolumeOrigin",
+              "ReplaceMode": "Always"
+            },
+            {
+              "Type": "ModifyTags",
+              "Event": "TAG_ADDED",
+              "Interval": 0.0,
+              "Delay": 0.0,
+              "Operation": "Remove",
+              "TagKey": "Rope_Triggered",
+              "TagValue": "",
+              "MatchKey": "",
+              "MatchValue": "",
+              "Radius": 50.0,
+              "Center": "Volume"
+            }
+          ],
+          "Enabled": true,
+          "Tags": {
+            "Rope_Trigger": "Empty"
+          },
+          "KeepLoaded": false,
+          "PrefabIndex": 0
+        }
+      }
+    }
+  ]
+}

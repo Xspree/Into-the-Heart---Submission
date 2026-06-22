@@ -1,0 +1,21 @@
+{
+  "Group": "Xspree",
+  "Name": "Platforms",
+  "Version": "0.0.1",
+  "Description": "Platforms",
+  "Authors": [
+    {
+      "Name": "Xspree",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "ServerVersion": ">=0.5.5 <0.6.0",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

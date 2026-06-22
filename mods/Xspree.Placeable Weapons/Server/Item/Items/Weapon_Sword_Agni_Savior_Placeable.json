@@ -1,0 +1,263 @@
+{
+  "Parent": "Decorative_Potion_Template",
+  "TranslationProperties": {
+    "Name": "Agni's Savior",
+    "Description": ""
+  },
+  "Icon": "Icons/ItemsGenerated/Weapon_Sword_Crude_Placeable.png",
+  "Model": "Items/Weapons/Sword/Mithril.blockymodel",
+  "Texture": "Items/Weapons/Sword/Mithril_Texture.png",
+  "Quality": "Common",
+  "ItemLevel": 3,
+  "Recipe": {
+    "TimeSeconds": 0,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ResourceTypeId": "Rubble",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Stick",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Fieldcraft",
+        "Type": "Crafting",
+        "Categories": [
+          "Tools"
+        ]
+      },
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Survival"
+        ]
+      }
+    ]
+  },
+  "InteractionVars": {
+    "Swing_Left": {
+      "Interactions": [
+        {
+          "$Comment": "FX for the start of the attack go here",
+          "Parent": "Weapon_Sword_Primary_Swing_Left",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Sword_T1_Swing",
+            "LocalSoundEventId": "SFX_Sword_T1_Swing_RL_Local"
+          }
+        }
+      ]
+    },
+    "Swing_Right": {
+      "Interactions": [
+        {
+          "$Comment": "FX for the start of the attack go here",
+          "Parent": "Weapon_Sword_Primary_Swing_Right",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Sword_T1_Swing",
+            "LocalSoundEventId": "SFX_Sword_T1_Swing_LR_Local"
+          }
+        }
+      ]
+    },
+    "Swing_Down": {
+      "Interactions": [
+        {
+          "$Comment": "FX for the start of the attack go here",
+          "Parent": "Weapon_Sword_Primary_Swing_Down",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Sword_T1_Swing_Down",
+            "LocalSoundEventId": "SFX_Sword_T1_Swing_Down_Local"
+          }
+        }
+      ]
+    },
+    "Swing_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Sword_Primary_Swing_Left_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Light_Melee_T1_Impact",
+            "LocalSoundEventId": "SFX_Light_Melee_T1_Impact"
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 6
+            }
+          }
+        }
+      ]
+    },
+    "Swing_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Sword_Primary_Swing_Right_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Light_Melee_T1_Impact",
+            "LocalSoundEventId": "SFX_Light_Melee_T1_Impact"
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 6
+            }
+          }
+        }
+      ]
+    },
+    "Swing_Down_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Sword_Primary_Swing_Down_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Light_Melee_T1_Impact",
+            "LocalSoundEventId": "SFX_Light_Melee_T1_Impact"
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 11
+            }
+          }
+        }
+      ]
+    },
+    "Thrust_Selector": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Sword_Primary_Thrust_Selector",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Light_Melee_T1_Lunge",
+            "LocalSoundEventId": "SFX_Sword_T1_Lunge_Local"
+          }
+        }
+      ]
+    },
+    "Thrust_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Sword_Primary_Thrust_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Light_Melee_T1_Impact",
+            "LocalSoundEventId": "SFX_Light_Melee_T1_Impact"
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 16
+            }
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 3
+            }
+          ]
+        }
+      ]
+    },
+    "Vortexstrike_Spin_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Sword_Signature_Vortexstrike_Spin_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Light_Melee_T1_Impact",
+            "LocalSoundEventId": "SFX_Light_Melee_T1_Impact"
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 12
+            }
+          },
+          "EntityStatsOnHit": []
+        }
+      ]
+    },
+    "Vortexstrike_Stab_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Sword_Signature_Vortexstrike_Stab_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Light_Melee_T1_Impact",
+            "LocalSoundEventId": "SFX_Light_Melee_T1_Impact"
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 35
+            }
+          },
+          "EntityStatsOnHit": []
+        }
+      ]
+    },
+    "Guard_Wield": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Sword_Secondary_Guard_Wield",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Light_Melee_T1_Block",
+            "LocalSoundEventId": "SFX_Sword_T1_Block_Local"
+          },
+          "StaminaCost": {
+            "Value": 5.56,
+            "CostType": "Damage"
+          },
+          "BlockedEffects": {
+            "WorldSoundEventId": "SFX_Light_Melee_T1_Guard_Hit"
+          }
+        }
+      ]
+    }
+  },
+  "MaxDurability": 80,
+  "DurabilityLossOnHit": 0.21,
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Weapons/Sword/Mithril_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "CustomModel": "Items/Weapons/Sword/Mithril.blockymodel",
+    "RandomRotation": "YawStep1",
+    "HitboxType": "Block_Half",
+    "BlockParticleSetId": "Dust",
+    "ParticleColor": "#4f3821",
+    "TextureComputedColor": "#420a0a",
+    "VariantRotation": "UpDownNESW",
+    "FlipType": "Symmetric",
+    "RotationYawPlacementOffset": "OneEighty",
+    "InteractionHitboxType": "Block_Half",
+    "CustomModelScale": 0.5,
+    "Light": {
+      "Color": "#eee"
+    }
+  },
+  "Scale": 1,
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Tags": {
+    "Type": [
+      "Decoration"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      4,
+      220,
+      39
+    ],
+    "Translation": [
+      -16,
+      -41
+    ]
+  }
+}

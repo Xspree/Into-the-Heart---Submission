@@ -1,0 +1,48 @@
+{
+  "TranslationProperties": {
+    "Name": "Air Block"
+  },
+  "ItemLevel": 10,
+  "BlockType": {
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "Blocks/Miscellaneous/Editor_Empty_Cube_Texture.png"
+      }
+    ],
+    "ParticleColor": "#d4ece7",
+    "TextureComputedColor": "#9FAEB3",
+    "Tint": [
+      "#9ea1c6"
+    ],
+    "CustomModel": "Blocks/Miscellaneous/Editor_Empty_Cube.blockymodel",
+    "Opacity": "Cutout",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Miscellaneous/Editor_Empty_Cube_Texture.png"
+      }
+    ],
+    "Material": "Solid",
+    "DrawType": "Empty"
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "$Comment": "  ",
+  "Icon": "Icons/ItemsGenerated/Air_Block.png",
+  "Parent": "Rock_Stone_Brick",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      16,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

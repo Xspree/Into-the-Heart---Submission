@@ -1,0 +1,74 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Rock_Calcite_Brick.name"
+  },
+  "ItemLevel": 10,
+  "Set": "Rock_Calcite",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Rock_Calcite"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Bricks"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Textures": [
+      {
+        "Weight": 1,
+        "Sides": "BlockTextures/Calcite_Brick_Side.png",
+        "UpDown": "BlockTextures/Calcite_Brick_Top.png"
+      },
+      {
+        "Sides": "BlockTextures/Calcite_Brick_Side02.png",
+        "UpDown": "BlockTextures/Calcite_Brick_Top.png",
+        "Weight": 2
+      }
+    ],
+    "ParticleColor": "#d4ece7",
+    "TextureComputedColor": "#9FAEB3",
+    "HitboxType": "Block_Vertical_Flat",
+    "Tint": [
+      "#9ea1c6"
+    ]
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Bricks"
+    },
+    {
+      "Id": "Rock_Calcite_Brick"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "$Comment": "  ",
+  "Icon": "Icons/ItemsGenerated/Rock_Calcite_Brick_No_Hitbox.png",
+  "Parent": "Rock_Stone_Brick",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      16,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}
