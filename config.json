@@ -1,0 +1,74 @@
+{
+  "Version": 4,
+  "ServerName": "Hytale Server",
+  "MOTD": "",
+  "Password": "",
+  "MaxPlayers": 100,
+  "MaxViewRadius": 32,
+  "Defaults": {
+    "World": "default",
+    "GameMode": "Adventure"
+  },
+  "ConnectionTimeouts": {},
+  "RateLimit": {},
+  "Modules": {
+    "PathPlugin": {
+      "Modules": {}
+    },
+    "Telemetry": {
+      "Modules": {}
+    }
+  },
+  "LogLevels": {},
+  "Mods": {
+    "Xspree:Platforms": {
+      "Enabled": true
+    },
+    "Alexandre:Replay": {
+      "Enabled": false
+    },
+    "Xspree:Placeable Weapons": {
+      "Enabled": true
+    },
+    "Xspree:TravseTown": {
+      "Enabled": false
+    },
+    "Xspree:Into the Heart": {
+      "Enabled": true
+    },
+    "X:Script Lore Shots": {
+      "Enabled": false
+    },
+    "Xspree:Video Shots": {
+      "Enabled": false
+    },
+    "MAJOR76:MajorDungeons": {
+      "Enabled": false
+    },
+    "Xspree:AlnCastle": {
+      "Enabled": false
+    },
+    "XCrossed:XCrossed": {
+      "Enabled": false
+    },
+    "Xspree:Castle": {
+      "Enabled": false
+    },
+    "Xspree:Trigger Volume Helper X": {
+      "Enabled": true
+    }
+  },
+  "DisplayTmpTagsInStrings": false,
+  "PlayerStorage": {
+    "Type": "Hytale"
+  },
+  "Update": {},
+  "Backup": {
+    "Enabled": true,
+    "FrequencyMinutes": 7,
+    "Directory": "backup",
+    "MaxCount": 5,
+    "ArchiveMaxCount": 5
+  },
+  "WorldMap": {}
+}
